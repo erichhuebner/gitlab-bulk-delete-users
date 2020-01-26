@@ -1,5 +1,10 @@
 ## Add Rake Tasks
 
+/opt/gitlab/embedded/service/gitlab-rails/lib/tasks
+gitlab-rake gitlab:cleanup:orphan_job_artifact_files DRY_RUN=false
+
+
+
 1. Go to gitlab's task folder. Something like `cd /home/git/gitlab/lib/tasks`
 2. Download rake task file by running
 ```
